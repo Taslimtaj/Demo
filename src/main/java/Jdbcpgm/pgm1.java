@@ -21,7 +21,7 @@ public class pgm1
 		
 		//to establish connection to DB{driver manager is a class and get connection is a method}
 		Connection con = DriverManager.getConnection(url, un, pw);
-		
+		 
 		//to send the query to db(path)
 		Statement stmt = con.createStatement();
 		
